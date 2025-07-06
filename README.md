@@ -34,19 +34,3 @@ A simple web-based User Registration Form built with **Node.js**, **Express**, *
 ## 🗂 Project Structure
 ![image](https://github.com/user-attachments/assets/a30c69a9-434c-4307-b3d9-bc665cb7932a)
 
-
-CREATE DATABASE user_registration;
-USE user_registration;
-
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    email VARCHAR(255),
-    dob DATE
-);
-const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'your_mysql_username',
-    password: 'your_mysql_password', // <-- change this
-    database: 'user_registration'
-});
