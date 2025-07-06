@@ -1,4 +1,4 @@
--- Run this SQL in your MySQL client to create the database and table
+
 CREATE DATABASE IF NOT EXISTS formdb;
 USE formdb;
 
